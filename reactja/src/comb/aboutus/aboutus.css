@@ -1,0 +1,32 @@
+.conr {
+    display: flex;
+    flex-direction: row;
+}
+.conr img {
+    height: 700px;
+    width: 600px;
+}
+.conr .conr1 .par1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(245, 118, 71);
+}
+.conr .conr1 .par2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(245, 118, 71);
+}
+.conr .conr1 .per3 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    height: 700px;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conr .conr1 .per3::first-letter{
+    font-size: 50px;
+    color: red;
+}

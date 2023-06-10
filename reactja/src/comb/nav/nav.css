@@ -1,0 +1,68 @@
+.con{
+    background-color: rgb(84, 84, 192);
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.con .logo {
+    color: white;
+    font-size: 40px;
+    font-weight:700;
+    cursor: pointer;
+}
+.con .logo:hover{
+    color: rgb(223, 79, 79);
+}
+.con .search{
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 8px;
+}
+.con .searchicon{
+    font-size: 20px;
+    color: black;
+}
+.con .in {
+    width: 300px;
+    height: 40px;
+    margin-left: 5px;
+    outline: none;
+    border: none;
+}
+.con .icon .main {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.con .icon .main:hover{
+    color: black;
+}
+.con .icon {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 300px;
+}
+.con .button {
+    height: 40px;
+    width:75px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.con .button:hover{
+    border: 2px black solid;
+    background-color: white;
+    color: black;
+}
